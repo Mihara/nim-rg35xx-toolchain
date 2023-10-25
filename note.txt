@@ -1,0 +1,6 @@
+# Works like so from shell:
+
+nimble build -d:release -d:strip --cpu:arm --os:linux --arm.linux.gcc.exe:$CC --arm.linux.gcc.linkerexe:$CC --verbose
+
+# Value of $CC is:
+CC=/opt/miyoo/bin/arm-miyoo-linux-uclibcgnueabi-gcc
